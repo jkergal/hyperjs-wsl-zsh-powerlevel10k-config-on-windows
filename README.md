@@ -15,7 +15,6 @@ C:\Users\Johann\AppData\Roaming\Hyper
 
 around line 95 change to :
         `shell: 'C:\\Windows\\System32\\wsl.exe',`       
-around line 95 change to :
         `shellArgs: ['~'],`
        
 set default path
