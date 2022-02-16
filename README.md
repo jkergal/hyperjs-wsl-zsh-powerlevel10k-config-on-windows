@@ -1,4 +1,4 @@
-# hyperjs-wsl-zsh-powerlevel10k-terminal-config
+# Configuration to use Hyper.js terminal with WSL, zsh and Oh My Zsh / Powerlevel10k theme
 
 install Windows Subsystem for Linux (WSL) on Microsoft Store (ex: Ubuntu)
 install zsh
