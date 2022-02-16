@@ -13,28 +13,10 @@ https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel1
 C:\Users\Johann\AppData\Roaming\Hyper
 .hyper
 
-`        // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
-        // if left empty, your system's login shell will be used by default
-        //
-        // Windows
-        // - Make sure to use a full path if the binary name doesn't work
-        // - Remove `--login` in shellArgs
-        //
-        // Windows Subsystem for Linux (WSL) - previously Bash on Windows
-        // - Example: `C:\\Windows\\System32\\wsl.exe`
-        //
-        // Git-bash on Windows
-        // - Example: `C:\\Program Files\\Git\\bin\\bash.exe`
-        //
-        // PowerShell on Windows
-        // - Example: `C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`
-        //
-        // Cygwin
-        // - Example: `C:\\cygwin64\\bin\\bash.exe`
-        shell: 'C:\\Windows\\System32\\wsl.exe',
-        // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
-        // by default `['--login']` will be used
-        shellArgs: ['~'], `
+around line 95 change to :
+        `shell: 'C:\\Windows\\System32\\wsl.exe',`       
+around line 95 change to :
+        `shellArgs: ['~'],`
        
 set default path
         `echo "cd ~/path" >> ~/.zshrc`
