@@ -1,4 +1,4 @@
-# Configuration to use Hyper.js terminal with WSL on windows 10, zsh and Oh My Zsh / Powerlevel10k theme
+# Configuration to use Hyper.js as a Zsh terminal with a Windows Subsystem Linux on windows 10, with Oh My Zsh and the Powerlevel10k theme
 
 - Go to : https://dev.to/vsalbuq/how-to-install-oh-my-zsh-on-windows-10-home-edition-49g2
 - install Windows Subsystem for Linux (WSL) on Microsoft Store (ex: Ubuntu)
